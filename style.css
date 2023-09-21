@@ -43,3 +43,9 @@ a {
     color: #E5E7EB;
     font-size: smaller;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
