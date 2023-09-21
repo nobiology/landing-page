@@ -5,12 +5,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    
 }
 
 .header,
 .hero,
 .footer {
     background-color: #1F2937;
+}
+
+.top-section {
+    display:flex;
+    flex-direction: column;
 }
