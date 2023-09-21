@@ -7,6 +7,14 @@ body {
     justify-content: space-between;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    flex: 1;
+}
+
 .header,
 .hero,
 .footer {
@@ -18,10 +26,8 @@ body {
     flex-direction: column;
 }
 
-.content {
+.header {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    flex: 1;
+    justify-content: space-around;
+    padding: 10px;
 }
