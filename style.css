@@ -78,6 +78,7 @@ a {
     color: white; 
     border: none;
     border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .hero-image {
@@ -147,3 +148,35 @@ a {
     font-weight: bold;
 }
 
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    width: 700px;
+    align-self: center;
+    margin: 50px;
+    padding: 50px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.signup-title {
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.signup-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-button {
+    background-color: #3882F6;   
+    color: white; 
+    border-radius: 5px;
+    border-color: white;
+    border-style: groove;
+    width: 86px;
+    height: 26px;
+}
