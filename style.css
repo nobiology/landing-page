@@ -180,3 +180,13 @@ a {
     width: 86px;
     height: 26px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-text {
+    color: #6b6b6b;
+}
